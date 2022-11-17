@@ -1,0 +1,33 @@
+.banner{
+    height: 50vh;
+    position: relative;
+    background: url(../imagenes/fondo1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    .banner_description{
+        position: absolute;
+        text-align: center;
+        color: #fff;
+        transform: translateX(-50%) translateY(-50%);
+        top:50%;
+        left: 50%;
+        width: 100%;
+        font-size: 1em;
+        margin-bottom: 2em;
+        text-shadow:4px 3px 1px black;
+        .banner_button{
+            background: #9cc76b;
+            border: none;
+            padding: 1em;
+            color: #fff;
+            font-size: 1em;
+            text-align: center;
+            border-radius: 10%;
+            &:hover{
+                border: 2px solid #9cc76b;
+                background: none;
+            }
+        }
+    }
+}

@@ -1,6 +1,7 @@
 .header_logo {
   position: relative;
-  z-index: 50; }
+  z-index: 10;
+  height: 50px; }
 
 .banner {
   height: 50vh;
@@ -43,6 +44,3 @@ body {
 .contenedor {
   width: 100%;
   margin: auto; }
-
-img {
-  width: 100%; }

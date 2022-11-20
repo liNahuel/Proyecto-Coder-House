@@ -85,6 +85,13 @@
         width: 5.625rem;
         border-radius: 100%; }
 
+.footer .footer_copy {
+  background-color: #0a1a2a;
+  text-align: center;
+  color: #fff; }
+  .footer .footer_copy small {
+    font-size: 15px; }
+
 body {
   margin: 0;
   padding: 0;

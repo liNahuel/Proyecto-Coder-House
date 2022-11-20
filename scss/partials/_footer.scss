@@ -6,26 +6,27 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        
-
         .box{
             figure{
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 img{
-                    height: 4.75rem;
-                    h2{
-                        font-size: 15px;
-                        
-                        p{
-                            color: #fff;
-                            margin-bottom: 25px;
-                            font-size:25px;
-                        }
-                    }
+                    width: 5.625rem;
+                    border-radius: 100%;
                 }
             }
+        }
+    }
+}
+
+.box{
+    h2{
+        font-weight: 800;
+        font-size: 20px;
+        p{
+            font-size: 15px;
+            color: #fff;
         }
     }
 }

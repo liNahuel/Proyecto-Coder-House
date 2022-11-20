@@ -66,13 +66,15 @@
       justify-content: center;
       align-items: center; }
       .footer .footer_contenedor .box figure img {
-        height: 4.75rem; }
-        .footer .footer_contenedor .box figure img h2 {
-          font-size: 15px; }
-          .footer .footer_contenedor .box figure img h2 p {
-            color: #fff;
-            margin-bottom: 25px;
-            font-size: 25px; }
+        width: 5.625rem;
+        border-radius: 100%; }
+
+.box h2 {
+  font-weight: 800;
+  font-size: 20px; }
+  .box h2 p {
+    font-size: 15px;
+    color: #fff; }
 
 body {
   margin: 0;

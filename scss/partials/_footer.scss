@@ -6,13 +6,29 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
+        grid-gap: 15px;
         .box{
+        .footer_redes{
+            & a{
+                display: inline-block;
+                text-decoration: none;
+                text-align: center;
+                width: 2.813rem;
+                height: 2.813rem;
+                background-color: $footer_redes;
+                line-height: 2.813rem;
+                transition: all 300ms ease;
+                &:hover{
+                    color:aqua;
+                }
+            }
+            
+        }
             h2{
                 font-weight: 800;
                 font-size: 1.25rem;
                 color: $color-letter;
-                
-            }
+                }
             figure{
                 display: flex;
                 justify-content: center;
@@ -25,5 +41,6 @@
         }
     }
 }
+
 
 

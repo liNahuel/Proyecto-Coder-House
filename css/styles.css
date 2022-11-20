@@ -1,7 +1,26 @@
-.header_logo {
-  position: relative;
-  z-index: 10;
-  height: 50px; }
+.header {
+  background-color: #FFF5E4;
+  top: 0;
+  height: 70px;
+  width: 100%;
+  box-shadow: 0 0 5px 11px rgba(0, 0, 0, 0);
+  display: grid;
+  position: relative; }
+  .header .header_logo {
+    height: 70px; }
+    .header .header_logo img {
+      height: 100%; }
+
+.header_nav {
+  display: flex;
+  justify-content: space-betweent; }
+  .header_nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none; }
+    .header_nav ul li {
+      display: inline-block;
+      margin: 0 1.5rem; }
 
 .banner {
   height: 50vh;
@@ -32,6 +51,11 @@
       .banner .banner_description .banner_button:hover {
         border: 2px solid #9cc76b;
         background: none; }
+
+/* Colores */
+.footer {
+  width: 100%;
+  background-color: #FF9494; }
 
 body {
   margin: 0;

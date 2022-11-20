@@ -56,6 +56,23 @@
 .footer {
   width: 100%;
   background-color: #FF9494; }
+  .footer .footer_contenedor {
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); }
+    .footer .footer_contenedor .box figure {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .footer .footer_contenedor .box figure img {
+        height: 4.75rem; }
+        .footer .footer_contenedor .box figure img h2 {
+          font-size: 15px; }
+          .footer .footer_contenedor .box figure img h2 p {
+            color: #fff;
+            margin-bottom: 25px;
+            font-size: 25px; }
 
 body {
   margin: 0;

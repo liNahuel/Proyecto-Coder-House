@@ -1,5 +1,31 @@
 .footer{
     width: 100%;
     background-color: $footer;
-    
+    .footer_contenedor{
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        
+
+        .box{
+            figure{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                img{
+                    height: 4.75rem;
+                    h2{
+                        font-size: 15px;
+                        
+                        p{
+                            color: #fff;
+                            margin-bottom: 25px;
+                            font-size:25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

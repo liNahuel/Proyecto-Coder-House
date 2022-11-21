@@ -40,6 +40,8 @@
     font-size: 1em;
     margin-bottom: 2em;
     text-shadow: 4px 3px 1px black; }
+    .banner .banner_description .banner_h1 {
+      font-size: 1.875rem; }
     .banner .banner_description .banner_button {
       background: #9cc76b;
       border: none;
@@ -52,7 +54,19 @@
         border: 2px solid #9cc76b;
         background: none; }
 
-/* Colores */
+.team {
+  background-color: grey;
+  padding: 1.875rem; }
+  .team .team_grid .team_columna img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 18rem; }
+  .team .team_h2 {
+    font-size: 1.563rem;
+    text-align: center; }
+
+/* Colores y letras*/
+/* MIXIN */
 .footer {
   width: 100%;
   background-color: #FF9494; }
@@ -73,10 +87,13 @@
       transition: all 300ms ease; }
       .footer .footer_contenedor .box .footer_redes a:hover {
         color: aqua; }
-    .footer .footer_contenedor .box h2 {
+    .footer .footer_contenedor .box .footer_h2 {
       font-weight: 800;
       font-size: 1.25rem;
       color: #FFE3E1; }
+    .footer .footer_contenedor .box .footer_p {
+      font-size: 15px;
+      font-weight: 500; }
     .footer .footer_contenedor .box figure {
       display: flex;
       justify-content: center;
@@ -88,7 +105,7 @@
 .footer .footer_copy {
   background-color: #0a1a2a;
   text-align: center;
-  color: #FFE3E1; }
+  color: #FFAE6D; }
   .footer .footer_copy small {
     font-size: 0.938rem; }
 

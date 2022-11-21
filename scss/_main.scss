@@ -16,6 +16,9 @@
         font-size: 1em;
         margin-bottom: 2em;
         text-shadow:4px 3px 1px black;
+        .banner_h1{
+            font-size: 1.875rem;
+        }
         .banner_button{
             background: #9cc76b;
             border: none;
@@ -27,7 +30,27 @@
             &:hover{
                 border: 2px solid #9cc76b;
                 background: none;
+                
             }
         }
+    }
+}
+
+.team{
+    background-color: grey;
+    padding: 1.875rem;
+    .team_grid{
+        .team_columna{
+            img{
+                border-radius: 50%;
+                object-fit: cover;
+                height: 18rem;
+            }
+        }
+    }
+    .team_h2{
+        font-size: 1.563rem;
+        text-align: center;
+        
     }
 }

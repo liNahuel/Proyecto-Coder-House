@@ -1,7 +1,7 @@
 .footer{
     width: 100%;
     background-color: $footer;
-    .footer_contenedor{
+        .footer_contenedor{
         margin: auto;
         width: 100%;
         display: grid;
@@ -46,9 +46,9 @@
     .footer_copy{
     background-color: #0a1a2a;
     text-align: center;
-    color: #fff;
+    color: $color_letter2;
     small{
-font-size: 15px;
+        font-size: 0.938rem;
     }
     }
 }

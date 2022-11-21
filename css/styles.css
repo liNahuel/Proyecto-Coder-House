@@ -88,9 +88,9 @@
 .footer .footer_copy {
   background-color: #0a1a2a;
   text-align: center;
-  color: #fff; }
+  color: #FFE3E1; }
   .footer .footer_copy small {
-    font-size: 15px; }
+    font-size: 0.938rem; }
 
 body {
   margin: 0;

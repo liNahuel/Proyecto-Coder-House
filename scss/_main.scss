@@ -1,3 +1,4 @@
+@import "./misc/variables";
 .banner{
     height: 50vh;
     position: relative;
@@ -36,21 +37,25 @@
     }
 }
 
+
 .team{
-    background-color: grey;
-    padding: 1.875rem;
+    @include fondo;
+    padding: 30px;
+    display: block;
     .team_grid{
+        display: grid;
         .team_columna{
             img{
+                @include sizes(195px,185px);
                 border-radius: 50%;
-                object-fit: cover;
-                height: 18rem;
+                h2{
+                    font-size: $letras_1;
+                    p{
+                        text-align: justify;
+                        font-weight: 500;
+                    }
+                }
             }
         }
-    }
-    .team_h2{
-        font-size: 1.563rem;
-        text-align: center;
-        
     }
 }

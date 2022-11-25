@@ -1,20 +1,18 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+//Header y footer
 @import "./partials/header";
-@import "main";
-@import "./misc/variables";
 @import "./partials/footer";
-body{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
 
-*{
-    font-family:'Roboto', sans-serif;
-    
-}
+//Paginas
+@import "main";
 
-.contenedor{
-    width: 100%;
-    margin: auto;
-}
+//MISC
+@import "./misc/variables";
+@import "./misc/reset";
+
+
+
+
 

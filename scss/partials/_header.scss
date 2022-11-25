@@ -1,0 +1,5 @@
+@import "../misc/variables";
+.navbar-custom{
+    @include fondo_header;
+    color: black !important;
+}

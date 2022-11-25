@@ -1,7 +1,7 @@
 /* Colores y letras*/
 $header:#FFF5E4;
 $footer:#FF9494;
-$color_letter1:#FFE3E1;
+$color_letter1:#65647C;
 $color_letter2:#FFAE6D;
 $footer_redes:#FDEEDC;
 $letras_1:1.563rem;
@@ -25,4 +25,10 @@ $letras_1:1.563rem;
         linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
         radial-gradient(gray 2px, transparent 0);
         background-size: 30px 30px, 30px 30px;
+}
+@mixin fondo_header {
+    background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }

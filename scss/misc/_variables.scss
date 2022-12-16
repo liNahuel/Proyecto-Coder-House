@@ -1,10 +1,12 @@
 /* Colores y letras*/
-$header:#FFF5E4;
-$footer:#FF9494;
+$header:#E3C770;
+$footer:#FFAE6D;
+$footer_copy:#F3E0B5;
 $color_letter1:#65647C;
-$color_letter2:#FFAE6D;
+$color_letter2:#2a2826;
 $footer_redes:#FDEEDC;
 $letras_1:1.563rem;
+$align:center;
 
 
 
@@ -30,5 +32,10 @@ $letras_1:1.563rem;
     background: #C6FFDD;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to left, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to left, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
 
+@mixin flex-box ($justifi){
+    display: flex;
+    justify-content: $justifi;
+    align-items: center;
 }

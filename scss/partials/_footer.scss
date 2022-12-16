@@ -6,7 +6,7 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(3,1fr);
-        grid-gap: 15px;
+        grid-gap: 10px;
         .box{
         .footer_redes{
             & a{
@@ -34,9 +34,7 @@
                     font-weight: 500;
                 }
             figure{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include flex-box(space-between);
                 img{
                     width: 5.625rem;
                     border-radius: 100%;
@@ -47,8 +45,10 @@
 }
 
 .footer{
+    width: 100%;
     .footer_copy{
-    background-color: #0a1a2a;
+    background-color: $footer_copy;
+    width: 100%;
     text-align: center;
     color: $color_letter2;
     small{

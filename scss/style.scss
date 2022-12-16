@@ -12,7 +12,13 @@
 @import "./misc/variables";
 @import "./misc/reset";
 
-
+.contenedor{
+    width: 100%;
+    margin: auto;
+    img{
+        width: 100%;
+    }
+}
 
 
 

@@ -38,24 +38,26 @@
 }
 
 
+.galeria{
+    margin: 20px;
+    h2{
+        text-align: $align;
+        font-size: $letras_1;
+    }
+}
+
+
 .team{
-    @include fondo;
+    background-color: #F8EDE3;
     padding: 30px;
-    display: block;
+    h2{
+        text-align: $align;
+        font-size: $letras_1;
+    }
     .team_grid{
         display: grid;
-        .team_columna{
-            img{
-                @include sizes(195px,185px);
-                border-radius: 50%;
-                h2{
-                    font-size: $letras_1;
-                    p{
-                        text-align: justify;
-                        font-weight: 500;
-                    }
-                }
-            }
+        img{
+            border-radius: 50%;
         }
     }
 }
